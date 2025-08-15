@@ -1,0 +1,89 @@
+# Database related
+*.sql.bak
+*.sql.backup
+*.dump
+*.sql.gz
+*.sql.zip
+database_backup/
+mysql_dump/
+
+# Log files
+*.log
+logs/
+mysql_error.log
+mysql_slow_query.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor related
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# Environment configuration files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Performance test results
+performance_results/
+test_output/
+*.csv
+*.json
+*.xml
+
+# Cache files
+.cache/
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files
+*.tar.gz
+*.zip
+*.rar
+
+# Database connection information
+connection_config.txt
+db_config.ini
+mysql_config.cnf
+
+# Test data
+test_data/
+sample_data/
+mock_data/
+
+# Profiling results
+profiling_results/
+*.prof
+*.profile
+
+# Temporary SQL files
+temp_*.sql
+test_*.sql
+
+.devenv/
+
+.devenv.flake.nix
